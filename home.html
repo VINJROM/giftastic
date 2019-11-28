@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="Assets/CSS/style.css">
+</head>
+
+<!-- Header where GIF-array will be stored -->
+<header id="head">
+    <div class="container">
+        <div id="wrapper">
+            <div class="row btn-group btn-group-justified">
+                <!-- Rendered Buttons will get Dumped Here  -->
+                <div id="buttons-view"></div>
+            </div>
+        </div>
+
+    </div>
+</header>
+
+
+<!-- GIF Search area -->
+
+<body>
+    <div class="container">
+        <div id="wrapper">
+            <!-- "Add GIF" button and text-box will display here -->
+            <div class="row">
+                <div class="col-lg-2">
+                    <wrapper class="column-style">
+                        <button id="add-gif" class="btn btn-danger btn-md" type="button" type="submit"
+                            value="Submit">Add GIF</button>
+                    </wrapper>
+                </div>
+
+                <!-- Search input-box -->
+                <div class="col-lg-6">
+                    <wrapper class="column-style">
+                        <label id="search-box">
+                            <input type="text" class="form-control" id="gif-input" placeholder=" Type GIF Here!">
+                        </label>
+                    </wrapper>
+                </div>
+            </div>
+
+            <!-- GIFs will display here -->
+            <div class="row">
+                <div class="col-12">
+                    <div class="gif" id="gifs-view">:D</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<!-- jQuery -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!-- Script -->
+<script type="text/javascript" src="Assets/JS/giftastic.js"></script>
+
+
+</html>

@@ -1,0 +1,41 @@
+button,
+div,
+form,
+input,
+p {
+    margin: 10px;
+    color: white;
+}
+
+body {
+    background: url("../Images/Theater_Stage_Background.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+
+/* .wrapper {
+    background-color: black;
+    border-radius: 10px;
+    border: 1px black solid;
+} */
+
+#submit-button {
+    margin-right: -60px;
+}
+
+#search-box {
+    /* margin: 2px; */
+}
+
+.column-style {
+    color: darkslategrey;
+}
+
+#gifs-view {
+    display: flex;
+    flex-wrap: wrap;
+}
