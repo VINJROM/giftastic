@@ -9,3 +9,5 @@ This game is part of the University of Minnesota's Web Application Development p
 *** Result ***
 The result is quick way for users to search gifs based on their input.
 
+*** Link ***
+https://giftastic123.herokuapp.com/
